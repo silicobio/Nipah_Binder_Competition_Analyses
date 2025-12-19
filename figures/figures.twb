@@ -1,0 +1,1888 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0415.1144                               -->
+<workbook original-version='18.1' source-build='2022.1.1 (20221.22.0415.1144)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='proteinbase_collection_nipah-binder-competition-all-submissions_processed' inline='true' name='federated.11e5cvr0vvyyx0176k2oj0v6xdav' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='proteinbase_collection_nipah-binder-competition-all-submissions_processed' name='textscan.15bao5p1e6n54j18dx6gw1cszj40'>
+            <connection class='textscan' directory='C:/Users/Colby/Documents/GitHub/Nipah_Binder_Competition_Analyses/data' filename='proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.15bao5p1e6n54j18dx6gw1cszj40' name='proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv' table='[proteinbase_collection_nipah-binder-competition-all-submissions_processed#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='id' ordinal='0' />
+            <column datatype='string' name='name' ordinal='1' />
+            <column datatype='string' name='sequence' ordinal='2' />
+            <column datatype='string' name='author' ordinal='3' />
+            <column datatype='string' name='designMethod' ordinal='4' />
+            <column datatype='string' name='aligned-lengthafdb50' ordinal='5' />
+            <column datatype='string' name='aligned-lengthcath50' ordinal='6' />
+            <column datatype='string' name='aligned-lengthpdb100' ordinal='7' />
+            <column datatype='real' name='boltz2_complex_iplddt' ordinal='8' />
+            <column datatype='real' name='boltz2_complex_pde' ordinal='9' />
+            <column datatype='real' name='boltz2_complex_plddt' ordinal='10' />
+            <column datatype='real' name='boltz2_ipsae' ordinal='11' />
+            <column datatype='real' name='boltz2_iptm' ordinal='12' />
+            <column datatype='real' name='boltz2_lis' ordinal='13' />
+            <column datatype='real' name='boltz2_min_ipsae' ordinal='14' />
+            <column datatype='real' name='boltz2_pdockq' ordinal='15' />
+            <column datatype='real' name='boltz2_pdockq2' ordinal='16' />
+            <column datatype='real' name='boltz2_plddt' ordinal='17' />
+            <column datatype='real' name='boltz2_ptm' ordinal='18' />
+            <column datatype='string' name='boltz2_structure_prediction' ordinal='19' />
+            <column datatype='string' name='cath_detail' ordinal='20' />
+            <column datatype='string' name='classification' ordinal='21' />
+            <column datatype='string' name='design_class' ordinal='22' />
+            <column datatype='string' name='domainmatch' ordinal='23' />
+            <column datatype='real' name='esmfold_plddt' ordinal='24' />
+            <column datatype='string' name='esmfold_structure_prediction' ordinal='25' />
+            <column datatype='string' name='esmfold_stylized_image' ordinal='26' />
+            <column datatype='string' name='evalueafdb50' ordinal='27' />
+            <column datatype='string' name='evaluecath50' ordinal='28' />
+            <column datatype='string' name='evaluepdb100' ordinal='29' />
+            <column datatype='string' name='foldstring' ordinal='30' />
+            <column datatype='string' name='interface_residues' ordinal='31' />
+            <column datatype='real' name='isoelectric_point' ordinal='32' />
+            <column datatype='real' name='molecular_weight' ordinal='33' />
+            <column datatype='string' name='pae_file' ordinal='34' />
+            <column datatype='real' name='proteinmpnn_score' ordinal='35' />
+            <column datatype='real' name='proteinmpnn_seq_recovery' ordinal='36' />
+            <column datatype='real' name='redesigned_proteinmpnn_score' ordinal='37' />
+            <column datatype='string' name='rmsdafdb50' ordinal='38' />
+            <column datatype='string' name='rmsdcath50' ordinal='39' />
+            <column datatype='string' name='rmsdpdb100' ordinal='40' />
+            <column datatype='string' name='seqidentityafdb50' ordinal='41' />
+            <column datatype='string' name='seqidentitycath50' ordinal='42' />
+            <column datatype='string' name='seqidentitypdb100' ordinal='43' />
+            <column datatype='real' name='shape_complimentarity_boltz2_binder_ss' ordinal='44' />
+            <column datatype='integer' name='ted_confidence' ordinal='45' />
+            <column datatype='string' name='tm-scoreafdb50' ordinal='46' />
+            <column datatype='string' name='tm-scorecath50' ordinal='47' />
+            <column datatype='string' name='tm-scorepdb100' ordinal='48' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.15bao5p1e6n54j18dx6gw1cszj40' name='proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv' table='[proteinbase_collection_nipah-binder-competition-all-submissions_processed#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='id' ordinal='0' />
+            <column datatype='string' name='name' ordinal='1' />
+            <column datatype='string' name='sequence' ordinal='2' />
+            <column datatype='string' name='author' ordinal='3' />
+            <column datatype='string' name='designMethod' ordinal='4' />
+            <column datatype='string' name='aligned-lengthafdb50' ordinal='5' />
+            <column datatype='string' name='aligned-lengthcath50' ordinal='6' />
+            <column datatype='string' name='aligned-lengthpdb100' ordinal='7' />
+            <column datatype='real' name='boltz2_complex_iplddt' ordinal='8' />
+            <column datatype='real' name='boltz2_complex_pde' ordinal='9' />
+            <column datatype='real' name='boltz2_complex_plddt' ordinal='10' />
+            <column datatype='real' name='boltz2_ipsae' ordinal='11' />
+            <column datatype='real' name='boltz2_iptm' ordinal='12' />
+            <column datatype='real' name='boltz2_lis' ordinal='13' />
+            <column datatype='real' name='boltz2_min_ipsae' ordinal='14' />
+            <column datatype='real' name='boltz2_pdockq' ordinal='15' />
+            <column datatype='real' name='boltz2_pdockq2' ordinal='16' />
+            <column datatype='real' name='boltz2_plddt' ordinal='17' />
+            <column datatype='real' name='boltz2_ptm' ordinal='18' />
+            <column datatype='string' name='boltz2_structure_prediction' ordinal='19' />
+            <column datatype='string' name='cath_detail' ordinal='20' />
+            <column datatype='string' name='classification' ordinal='21' />
+            <column datatype='string' name='design_class' ordinal='22' />
+            <column datatype='string' name='domainmatch' ordinal='23' />
+            <column datatype='real' name='esmfold_plddt' ordinal='24' />
+            <column datatype='string' name='esmfold_structure_prediction' ordinal='25' />
+            <column datatype='string' name='esmfold_stylized_image' ordinal='26' />
+            <column datatype='string' name='evalueafdb50' ordinal='27' />
+            <column datatype='string' name='evaluecath50' ordinal='28' />
+            <column datatype='string' name='evaluepdb100' ordinal='29' />
+            <column datatype='string' name='foldstring' ordinal='30' />
+            <column datatype='string' name='interface_residues' ordinal='31' />
+            <column datatype='real' name='isoelectric_point' ordinal='32' />
+            <column datatype='real' name='molecular_weight' ordinal='33' />
+            <column datatype='string' name='pae_file' ordinal='34' />
+            <column datatype='real' name='proteinmpnn_score' ordinal='35' />
+            <column datatype='real' name='proteinmpnn_seq_recovery' ordinal='36' />
+            <column datatype='real' name='redesigned_proteinmpnn_score' ordinal='37' />
+            <column datatype='string' name='rmsdafdb50' ordinal='38' />
+            <column datatype='string' name='rmsdcath50' ordinal='39' />
+            <column datatype='string' name='rmsdpdb100' ordinal='40' />
+            <column datatype='string' name='seqidentityafdb50' ordinal='41' />
+            <column datatype='string' name='seqidentitycath50' ordinal='42' />
+            <column datatype='string' name='seqidentitypdb100' ordinal='43' />
+            <column datatype='real' name='shape_complimentarity_boltz2_binder_ss' ordinal='44' />
+            <column datatype='integer' name='ted_confidence' ordinal='45' />
+            <column datatype='string' name='tm-scoreafdb50' ordinal='46' />
+            <column datatype='string' name='tm-scorecath50' ordinal='47' />
+            <column datatype='string' name='tm-scorepdb100' ordinal='48' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sequence</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sequence]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>sequence</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>author</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[author]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>author</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>designMethod</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[designMethod]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>designMethod</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aligned-lengthafdb50</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[aligned-lengthafdb50]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>aligned-lengthafdb50</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aligned-lengthcath50</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[aligned-lengthcath50]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>aligned-lengthcath50</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aligned-lengthpdb100</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[aligned-lengthpdb100]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>aligned-lengthpdb100</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>boltz2_complex_iplddt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[boltz2_complex_iplddt]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>boltz2_complex_iplddt</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>boltz2_complex_pde</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[boltz2_complex_pde]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>boltz2_complex_pde</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>boltz2_complex_plddt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[boltz2_complex_plddt]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>boltz2_complex_plddt</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>boltz2_ipsae</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[boltz2_ipsae]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>boltz2_ipsae</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>boltz2_iptm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[boltz2_iptm]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>boltz2_iptm</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>boltz2_lis</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[boltz2_lis]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>boltz2_lis</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>boltz2_min_ipsae</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[boltz2_min_ipsae]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>boltz2_min_ipsae</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>boltz2_pdockq</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[boltz2_pdockq]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>boltz2_pdockq</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>boltz2_pdockq2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[boltz2_pdockq2]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>boltz2_pdockq2</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>boltz2_plddt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[boltz2_plddt]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>boltz2_plddt</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>boltz2_ptm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[boltz2_ptm]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>boltz2_ptm</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>boltz2_structure_prediction</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[boltz2_structure_prediction]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>boltz2_structure_prediction</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cath_detail</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cath_detail]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>cath_detail</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>classification</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[classification]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>classification</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>design_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[design_class]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>design_class</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>domainmatch</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[domainmatch]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>domainmatch</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>esmfold_plddt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[esmfold_plddt]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>esmfold_plddt</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>esmfold_structure_prediction</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[esmfold_structure_prediction]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>esmfold_structure_prediction</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>esmfold_stylized_image</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[esmfold_stylized_image]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>esmfold_stylized_image</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>evalueafdb50</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[evalueafdb50]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>evalueafdb50</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>evaluecath50</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[evaluecath50]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>evaluecath50</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>evaluepdb100</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[evaluepdb100]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>evaluepdb100</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>foldstring</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[foldstring]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>foldstring</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>interface_residues</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[interface_residues]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>interface_residues</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>isoelectric_point</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[isoelectric_point]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>isoelectric_point</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>molecular_weight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[molecular_weight]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>molecular_weight</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pae_file</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pae_file]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>pae_file</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>proteinmpnn_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[proteinmpnn_score]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>proteinmpnn_score</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>proteinmpnn_seq_recovery</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[proteinmpnn_seq_recovery]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>proteinmpnn_seq_recovery</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>redesigned_proteinmpnn_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[redesigned_proteinmpnn_score]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>redesigned_proteinmpnn_score</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rmsdafdb50</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rmsdafdb50]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>rmsdafdb50</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rmsdcath50</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rmsdcath50]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>rmsdcath50</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rmsdpdb100</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rmsdpdb100]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>rmsdpdb100</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>seqidentityafdb50</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[seqidentityafdb50]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>seqidentityafdb50</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>seqidentitycath50</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[seqidentitycath50]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>seqidentitycath50</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>seqidentitypdb100</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[seqidentitypdb100]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>seqidentitypdb100</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shape_complimentarity_boltz2_binder_ss</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[shape_complimentarity_boltz2_binder_ss]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>shape_complimentarity_boltz2_binder_ss</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ted_confidence</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ted_confidence]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>ted_confidence</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tm-scoreafdb50</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tm-scoreafdb50]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>tm-scoreafdb50</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tm-scorecath50</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tm-scorecath50]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>tm-scorecath50</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tm-scorepdb100</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tm-scorepdb100]</local-name>
+            <parent-name>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv]</parent-name>
+            <remote-alias>tm-scorepdb100</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv' datatype='table' name='[__tableau_internal_object_id__].[proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF]' role='measure' type='quantitative' />
+      <column caption='Aligned-Lengthafdb50' datatype='string' name='[aligned-lengthafdb50]' role='dimension' type='nominal' />
+      <column caption='Aligned-Lengthcath50' datatype='string' name='[aligned-lengthcath50]' role='dimension' type='nominal' />
+      <column caption='Aligned-Lengthpdb100' datatype='string' name='[aligned-lengthpdb100]' role='dimension' type='nominal' />
+      <column caption='Author' datatype='string' name='[author]' role='dimension' type='nominal' />
+      <column caption='Boltz2 Complex Iplddt' datatype='real' name='[boltz2_complex_iplddt]' role='measure' type='quantitative' />
+      <column caption='Boltz2 Complex Pde' datatype='real' name='[boltz2_complex_pde]' role='measure' type='quantitative' />
+      <column caption='Boltz2 Complex Plddt' datatype='real' name='[boltz2_complex_plddt]' role='measure' type='quantitative' />
+      <column caption='Boltz2 Ipsae' datatype='real' name='[boltz2_ipsae]' role='measure' type='quantitative' />
+      <column caption='Boltz2 Iptm' datatype='real' name='[boltz2_iptm]' role='measure' type='quantitative' />
+      <column caption='Boltz2 Lis' datatype='real' name='[boltz2_lis]' role='measure' type='quantitative' />
+      <column caption='Boltz2 Min Ipsae' datatype='real' name='[boltz2_min_ipsae]' role='measure' type='quantitative' />
+      <column caption='Boltz2 Pdockq2' datatype='real' name='[boltz2_pdockq2]' role='measure' type='quantitative' />
+      <column caption='Boltz2 Pdockq' datatype='real' name='[boltz2_pdockq]' role='measure' type='quantitative' />
+      <column caption='Boltz2 Plddt' datatype='real' name='[boltz2_plddt]' role='measure' type='quantitative' />
+      <column caption='Boltz2 Ptm' datatype='real' name='[boltz2_ptm]' role='measure' type='quantitative' />
+      <column caption='Boltz2 Structure Prediction' datatype='string' name='[boltz2_structure_prediction]' role='dimension' type='nominal' />
+      <column caption='Cath Detail' datatype='string' name='[cath_detail]' role='dimension' type='nominal' />
+      <column caption='Classification' datatype='string' name='[classification]' role='dimension' type='nominal' />
+      <column caption='Design Method' datatype='string' name='[designMethod]' role='dimension' type='nominal' />
+      <column caption='Design Class' datatype='string' name='[design_class]' role='dimension' type='nominal' />
+      <column caption='Domainmatch' datatype='string' name='[domainmatch]' role='dimension' type='nominal' />
+      <column caption='Esmfold Plddt' datatype='real' name='[esmfold_plddt]' role='measure' type='quantitative' />
+      <column caption='Esmfold Structure Prediction' datatype='string' name='[esmfold_structure_prediction]' role='dimension' type='nominal' />
+      <column caption='Esmfold Stylized Image' datatype='string' name='[esmfold_stylized_image]' role='dimension' type='nominal' />
+      <column caption='Evalueafdb50' datatype='string' name='[evalueafdb50]' role='dimension' type='nominal' />
+      <column caption='Evaluecath50' datatype='string' name='[evaluecath50]' role='dimension' type='nominal' />
+      <column caption='Evaluepdb100' datatype='string' name='[evaluepdb100]' role='dimension' type='nominal' />
+      <column caption='Foldstring' datatype='string' name='[foldstring]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='string' name='[id]' role='dimension' type='nominal' />
+      <column caption='Interface Residues' datatype='string' name='[interface_residues]' role='dimension' type='nominal' />
+      <column caption='Isoelectric Point' datatype='real' name='[isoelectric_point]' role='measure' type='quantitative' />
+      <column caption='Molecular Weight' datatype='real' name='[molecular_weight]' role='measure' type='quantitative' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Pae File' datatype='string' name='[pae_file]' role='dimension' type='nominal' />
+      <column caption='Proteinmpnn Score' datatype='real' name='[proteinmpnn_score]' role='measure' type='quantitative' />
+      <column caption='Proteinmpnn Seq Recovery' datatype='real' name='[proteinmpnn_seq_recovery]' role='measure' type='quantitative' />
+      <column caption='Redesigned Proteinmpnn Score' datatype='real' name='[redesigned_proteinmpnn_score]' role='measure' type='quantitative' />
+      <column caption='Rmsdafdb50' datatype='string' name='[rmsdafdb50]' role='dimension' type='nominal' />
+      <column caption='Rmsdcath50' datatype='string' name='[rmsdcath50]' role='dimension' type='nominal' />
+      <column caption='Rmsdpdb100' datatype='string' name='[rmsdpdb100]' role='dimension' type='nominal' />
+      <column caption='Seqidentityafdb50' datatype='string' name='[seqidentityafdb50]' role='dimension' type='nominal' />
+      <column caption='Seqidentitycath50' datatype='string' name='[seqidentitycath50]' role='dimension' type='nominal' />
+      <column caption='Seqidentitypdb100' datatype='string' name='[seqidentitypdb100]' role='dimension' type='nominal' />
+      <column caption='Sequence' datatype='string' name='[sequence]' role='dimension' type='nominal' />
+      <column caption='Shape Complimentarity Boltz2 Binder Ss' datatype='real' name='[shape_complimentarity_boltz2_binder_ss]' role='measure' type='quantitative' />
+      <column caption='Ted Confidence' datatype='integer' name='[ted_confidence]' role='measure' type='quantitative' />
+      <column caption='Tm-Scoreafdb50' datatype='string' name='[tm-scoreafdb50]' role='dimension' type='nominal' />
+      <column caption='Tm-Scorecath50' datatype='string' name='[tm-scorecath50]' role='dimension' type='nominal' />
+      <column caption='Tm-Scorepdb100' datatype='string' name='[tm-scorepdb100]' role='dimension' type='nominal' />
+      <column-instance column='[design_class]' derivation='None' name='[none:design_class:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:design_class:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Affibody&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Peptide&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nanobody&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;scFv&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Miniprotein&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv' id='proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv_00991C5EE6424B368A159D62A4D114DF'>
+            <properties context=''>
+              <relation connection='textscan.15bao5p1e6n54j18dx6gw1cszj40' name='proteinbase_collection_nipah-binder-competition-all-submissions_processed.csv' table='[proteinbase_collection_nipah-binder-competition-all-submissions_processed#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='id' ordinal='0' />
+                  <column datatype='string' name='name' ordinal='1' />
+                  <column datatype='string' name='sequence' ordinal='2' />
+                  <column datatype='string' name='author' ordinal='3' />
+                  <column datatype='string' name='designMethod' ordinal='4' />
+                  <column datatype='string' name='aligned-lengthafdb50' ordinal='5' />
+                  <column datatype='string' name='aligned-lengthcath50' ordinal='6' />
+                  <column datatype='string' name='aligned-lengthpdb100' ordinal='7' />
+                  <column datatype='real' name='boltz2_complex_iplddt' ordinal='8' />
+                  <column datatype='real' name='boltz2_complex_pde' ordinal='9' />
+                  <column datatype='real' name='boltz2_complex_plddt' ordinal='10' />
+                  <column datatype='real' name='boltz2_ipsae' ordinal='11' />
+                  <column datatype='real' name='boltz2_iptm' ordinal='12' />
+                  <column datatype='real' name='boltz2_lis' ordinal='13' />
+                  <column datatype='real' name='boltz2_min_ipsae' ordinal='14' />
+                  <column datatype='real' name='boltz2_pdockq' ordinal='15' />
+                  <column datatype='real' name='boltz2_pdockq2' ordinal='16' />
+                  <column datatype='real' name='boltz2_plddt' ordinal='17' />
+                  <column datatype='real' name='boltz2_ptm' ordinal='18' />
+                  <column datatype='string' name='boltz2_structure_prediction' ordinal='19' />
+                  <column datatype='string' name='cath_detail' ordinal='20' />
+                  <column datatype='string' name='classification' ordinal='21' />
+                  <column datatype='string' name='design_class' ordinal='22' />
+                  <column datatype='string' name='domainmatch' ordinal='23' />
+                  <column datatype='real' name='esmfold_plddt' ordinal='24' />
+                  <column datatype='string' name='esmfold_structure_prediction' ordinal='25' />
+                  <column datatype='string' name='esmfold_stylized_image' ordinal='26' />
+                  <column datatype='string' name='evalueafdb50' ordinal='27' />
+                  <column datatype='string' name='evaluecath50' ordinal='28' />
+                  <column datatype='string' name='evaluepdb100' ordinal='29' />
+                  <column datatype='string' name='foldstring' ordinal='30' />
+                  <column datatype='string' name='interface_residues' ordinal='31' />
+                  <column datatype='real' name='isoelectric_point' ordinal='32' />
+                  <column datatype='real' name='molecular_weight' ordinal='33' />
+                  <column datatype='string' name='pae_file' ordinal='34' />
+                  <column datatype='real' name='proteinmpnn_score' ordinal='35' />
+                  <column datatype='real' name='proteinmpnn_seq_recovery' ordinal='36' />
+                  <column datatype='real' name='redesigned_proteinmpnn_score' ordinal='37' />
+                  <column datatype='string' name='rmsdafdb50' ordinal='38' />
+                  <column datatype='string' name='rmsdcath50' ordinal='39' />
+                  <column datatype='string' name='rmsdpdb100' ordinal='40' />
+                  <column datatype='string' name='seqidentityafdb50' ordinal='41' />
+                  <column datatype='string' name='seqidentitycath50' ordinal='42' />
+                  <column datatype='string' name='seqidentitypdb100' ordinal='43' />
+                  <column datatype='real' name='shape_complimentarity_boltz2_binder_ss' ordinal='44' />
+                  <column datatype='integer' name='ted_confidence' ordinal='45' />
+                  <column datatype='string' name='tm-scoreafdb50' ordinal='46' />
+                  <column datatype='string' name='tm-scorecath50' ordinal='47' />
+                  <column datatype='string' name='tm-scorepdb100' ordinal='48' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Boltz-2 Metrics by ipSAE'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='proteinbase_collection_nipah-binder-competition-all-submissions_processed' name='federated.11e5cvr0vvyyx0176k2oj0v6xdav' />
+          </datasources>
+          <datasource-dependencies datasource='federated.11e5cvr0vvyyx0176k2oj0v6xdav'>
+            <column caption='Boltz2 Complex Iplddt' datatype='real' name='[boltz2_complex_iplddt]' role='measure' type='quantitative' />
+            <column caption='Boltz2 Complex Pde' datatype='real' name='[boltz2_complex_pde]' role='measure' type='quantitative' />
+            <column caption='Boltz2 Complex Plddt' datatype='real' name='[boltz2_complex_plddt]' role='measure' type='quantitative' />
+            <column caption='Boltz2 Iptm' datatype='real' name='[boltz2_iptm]' role='measure' type='quantitative' />
+            <column caption='Boltz2 Min Ipsae' datatype='real' name='[boltz2_min_ipsae]' role='measure' type='quantitative' />
+            <column caption='Boltz2 Plddt' datatype='real' name='[boltz2_plddt]' role='measure' type='quantitative' />
+            <column caption='Boltz2 Ptm' datatype='real' name='[boltz2_ptm]' role='measure' type='quantitative' />
+            <column caption='Design Class' datatype='string' name='[design_class]' role='dimension' type='nominal' />
+            <column caption='Id' datatype='string' name='[id]' role='dimension' type='nominal' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[design_class]' derivation='None' name='[none:design_class:nk]' pivot='key' type='nominal' />
+            <column-instance column='[id]' derivation='None' name='[none:id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[boltz2_complex_iplddt]' derivation='Sum' name='[sum:boltz2_complex_iplddt:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[boltz2_complex_pde]' derivation='Sum' name='[sum:boltz2_complex_pde:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[boltz2_complex_plddt]' derivation='Sum' name='[sum:boltz2_complex_plddt:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[boltz2_iptm]' derivation='Sum' name='[sum:boltz2_iptm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[boltz2_min_ipsae]' derivation='Sum' name='[sum:boltz2_min_ipsae:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[boltz2_plddt]' derivation='Sum' name='[sum:boltz2_plddt:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[boltz2_ptm]' derivation='Sum' name='[sum:boltz2_ptm:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:design_class:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Peptide&quot;</bucket>
+              <bucket>&quot;Miniprotein&quot;</bucket>
+              <bucket>&quot;Nanobody&quot;</bucket>
+              <bucket>&quot;scFv&quot;</bucket>
+              <bucket>&quot;Affibody&quot;</bucket>
+              <bucket>&quot;Other&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_plddt:qk]' field-type='quantitative' scope='cols' type='space' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_complex_iplddt:qk]' field-type='quantitative' scope='cols' type='space' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_complex_pde:qk]' field-type='quantitative' scope='cols' type='space' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_complex_plddt:qk]' field-type='quantitative' scope='cols' type='space' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_iptm:qk]' field-type='quantitative' scope='cols' type='space' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_ptm:qk]' field-type='quantitative' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:design_class:nk]' />
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:name:nk]' />
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:id:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='false' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_plddt:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:design_class:nk]' />
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:name:nk]' />
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:id:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='false' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_complex_iplddt:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:design_class:nk]' />
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:name:nk]' />
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:id:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='false' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_complex_pde:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:design_class:nk]' />
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:name:nk]' />
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:id:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='false' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_complex_plddt:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:design_class:nk]' />
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:name:nk]' />
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:id:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='false' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_iptm:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:design_class:nk]' />
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:name:nk]' />
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:id:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='false' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_ptm:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:design_class:nk]' />
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:name:nk]' />
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:id:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='false' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:design_class:nk] * [federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_min_ipsae:qk])</rows>
+        <cols>([federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_plddt:qk] + ([federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_complex_iplddt:qk] + ([federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_complex_pde:qk] + ([federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_complex_plddt:qk] + ([federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_iptm:qk] + [federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_ptm:qk])))))</cols>
+      </table>
+      <simple-id uuid='{80CFC9FC-7133-497D-9154-4D3CCCBC4B4B}' />
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='proteinbase_collection_nipah-binder-competition-all-submissions_processed' name='federated.11e5cvr0vvyyx0176k2oj0v6xdav' />
+          </datasources>
+          <datasource-dependencies datasource='federated.11e5cvr0vvyyx0176k2oj0v6xdav'>
+            <column caption='Boltz2 Min Ipsae' datatype='real' name='[boltz2_min_ipsae]' role='measure' type='quantitative' />
+            <column caption='Boltz2 Plddt' datatype='real' name='[boltz2_plddt]' role='measure' type='quantitative' />
+            <column caption='Design Class' datatype='string' name='[design_class]' role='dimension' type='nominal' />
+            <column caption='Id' datatype='string' name='[id]' role='dimension' type='nominal' />
+            <column-instance column='[boltz2_plddt]' derivation='None' name='[none:boltz2_plddt:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[design_class]' derivation='None' name='[none:design_class:nk]' pivot='key' type='nominal' />
+            <column-instance column='[id]' derivation='None' name='[none:id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[boltz2_min_ipsae]' derivation='Sum' name='[sum:boltz2_min_ipsae:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:boltz2_plddt:qk]' included-values='all' />
+          <slices>
+            <column>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:boltz2_plddt:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:id:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_min_ipsae:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_min_ipsae:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_min_ipsae:qk]</rows>
+        <cols>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:design_class:nk]</cols>
+      </table>
+      <simple-id uuid='{47FBD1D3-B95D-4428-AE90-B411F939458B}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:boltz2_plddt:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:author:nk]</field>
+            <field>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:boltz2_plddt:qk]</field>
+            <field>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:classification:nk]</field>
+            <field>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:design_class:nk]</field>
+            <field>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:id:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{76030613-8F5A-46F1-BEEF-F652962B5A46}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Boltz-2 Metrics by ipSAE'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:design_class:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:author:nk]</field>
+            <field>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:classification:nk]</field>
+            <field>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:designMethod:nk]</field>
+            <field>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:design_class:nk]</field>
+            <field>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:foldstring:nk]</field>
+            <field>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:id:nk]</field>
+            <field>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[none:name:nk]</field>
+            <field>[federated.11e5cvr0vvyyx0176k2oj0v6xdav].[sum:boltz2_pdockq:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{479FA7E8-7616-47CA-A1A5-1A00DABC35E2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Boltz-2 Metrics by ipSAE' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
