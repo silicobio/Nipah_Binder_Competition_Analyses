@@ -12,6 +12,8 @@ This repository contains code and results for post-hoc analyses of the Adaptyv B
 
 - Binding Affinity Data: [data/haddock3_scores.csv](data/haddock3_scores.csv)
 
+- ML-able dataset: [data/proteinbase_nipah-binder-competition_ml-dataset.csv](data/proteinbase_nipah-binder-competition_ml-dataset.csv)
+
 
 
 ![Correlation Plots](figures/Correlation%20Plots.png)
